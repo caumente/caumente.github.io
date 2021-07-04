@@ -244,12 +244,12 @@ figure {
     #colorlib-hero .flexslider .slides {
       position: relative;
       overflow: visible; }
-      /*#colorlib-hero .flexslider .slides li {
+      #colorlib-hero .flexslider .slides li {
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: bottom center;
+        /*background-position: bottom center;*/
         min-height: 400px;
-        position: relative; } comentado para que no se vea mi imagen en modo movil*/
+        position: relative; } /* comentado para que no se vea mi imagen en modo movil*/
     #colorlib-hero .flexslider .flex-control-nav {
       bottom: 20px;
       z-index: 1000;
