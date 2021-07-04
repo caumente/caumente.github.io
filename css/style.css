@@ -249,7 +249,7 @@ figure {
         background-size: cover;
         /*background-position: bottom center;*/
         min-height: 400px;
-        position: relative; } /* comentado para que no se vea mi imagen en modo movil*/
+        position: relative; } /* comentado para que no se vea mi imagen en modo movil */
     #colorlib-hero .flexslider .flex-control-nav {
       bottom: 20px;
       z-index: 1000;
