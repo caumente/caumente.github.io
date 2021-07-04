@@ -496,7 +496,7 @@ body.offcanvas {
   content: "\e114"; }
 
 .panel-heading a.collapsed {
-  background: #0A1017 ; /* #f2f3f7 */
+  background: #f2f3f7 ; /* #f2f3f7, #0A1017*/
   border: 1px solid #e6e6e6 !important;
   color: #333333; }
 
