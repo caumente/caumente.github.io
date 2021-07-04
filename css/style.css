@@ -130,7 +130,7 @@ figure {
       padding: 0; }
       @media screen and (max-width: 768px) {
         #colorlib-aside #colorlib-main-menu ul {
-          margin: 0 0 2em 0; } }
+          margin: 0 0 0em 0; } }
       #colorlib-aside #colorlib-main-menu ul li {
         margin: 0 0 10px 0;
         padding: 0;
@@ -244,12 +244,12 @@ figure {
     #colorlib-hero .flexslider .slides {
       position: relative;
       overflow: visible; }
-      #colorlib-hero .flexslider .slides li {
+      /*#colorlib-hero .flexslider .slides li {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom center;
         min-height: 400px;
-        position: relative; }
+        position: relative; } comentado para que no se vea mi imagen en modo movil*/
     #colorlib-hero .flexslider .flex-control-nav {
       bottom: 20px;
       z-index: 1000;
@@ -289,12 +289,15 @@ figure {
         position: relative; }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
-            text-align: center; } }
+            text-align: left; } } /* edita el texto I'm a Data scientist en modo movil*/
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
           color: black;
-          font-family: "Playfair Display", Georgia, serif; }
+          font-family: "Playfair Display", Georgia, serif;}
+          @media screen and (max-width: 768px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+              max-width: 260px; } } /* controla que no sea muy larga la frase I am a data sci... en formato movil*/
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
           font-size: 60px;
@@ -332,12 +335,12 @@ figure {
           border: none;
           font-weight: 400; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
-            color: #000;
-            border: 1px solid #000;
-            background: transparent !important; }
+            color: #fff;
+            border: 1px solid #0A1017;
+            background: #2c98f0 !important; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
-              background: transparent !important;
-              border: 1px solid #000 !important; }
+              background: #56AFF8 !important;
+              border: 1px solid #2c98f0 !important; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
@@ -351,7 +354,7 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 300px;
-    background: #f2f3f7;
+    background: #0A1017 ; /* #f2f3f7 color del panel lateral en modo movil*/
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
@@ -364,7 +367,7 @@ body.offcanvas {
 
 .colorlib-narrow-content {
   padding: 0 2.5em; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 7680px) {
     .colorlib-narrow-content {
       padding: 0; } }
 
@@ -493,7 +496,7 @@ body.offcanvas {
   content: "\e114"; }
 
 .panel-heading a.collapsed {
-  background: #f2f3f7;
+  background: #0A1017 ; /* #f2f3f7 */
   border: 1px solid #e6e6e6 !important;
   color: #333333; }
 
@@ -525,7 +528,7 @@ body.offcanvas {
   position: absolute;
   display: block;
   width: 4px;
-  background: #f2f3f7;
+  background: #0A1017 ; /* #f2f3f7 */
   top: 20px;
   bottom: 20px;
   margin-left: 29px; }
@@ -551,9 +554,9 @@ body.offcanvas {
   -ms-border-radius: 50%;
   border-radius: 50%;
   text-align: center;
-  -moz-box-shadow: 0 0 0 5px #f2f3f7;
-  -webkit-box-shadow: 0 0 0 5px #f2f3f7;
-  box-shadow: 0 0 0 5px #f2f3f7;
+  -moz-box-shadow: 0 0 0 5px #0A1017 ; /* #f2f3f7 */
+  -webkit-box-shadow: 0 0 0 5px #0A1017 ; /* #f2f3f7 */
+  box-shadow: 0 0 0 5px #0A1017 ; /* #f2f3f7 */
   line-height: 40px;
   float: left; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
@@ -574,7 +577,7 @@ body.offcanvas {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
-  background: #f2f3f7;
+  background: #f2f3f7 ; /* #f2f3f7 */
   padding: 1.5em;
   margin-left: 60px;
   -webkit-background-clip: padding-box;
@@ -737,7 +740,7 @@ body.offcanvas {
   height: 6px;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: #f2f3f7;
+  background: #f2f3f7 ; /* Color del background de las barras de progreso de skills*/
   overflow: visible; }
 
 .progress-bar {
@@ -822,7 +825,7 @@ body.offcanvas {
     height: 100px;
     display: table;
     text-align: center;
-    background: #f2f3f7;
+    background: #f2f3f7  ; /* #f2f3f7 */
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -1187,7 +1190,7 @@ body.offcanvas {
 .btn-primary {
   background: #2c98f0;
   color: #fff;
-  border: 2px solid #2c98f0; }
+  border: 1px solid #0A1017; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #44a4f2 !important;
     border-color: #44a4f2 !important; }
@@ -1278,7 +1281,7 @@ body.offcanvas {
   box-shadow: none;
   background: transparent;
   border: transparent;
-  background: #f2f3f7;
+  background: #f2f3f7  ; /* #f2f3f7 */
   height: 54px;
   font-size: 16px;
   font-weight: 400;
