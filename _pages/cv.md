@@ -116,7 +116,7 @@ redirect_from:
 
 **Reviewer for Scientific Journals and Peer-Review Conferences**
 
-  - 3 Peer-reviewed paper for Biomedical Signal Processing and Control journal, Elsevier editorial
+  - 4 Peer-reviewed paper for Biomedical Signal Processing and Control journal, Elsevier editorial
 
 **Honors and Awards**
 
