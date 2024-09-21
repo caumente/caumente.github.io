@@ -11,7 +11,7 @@ redirect_from:
 
 ## Work experience
 
-* **Visiting Researcher at MIA group**, University of Bern, Switzerland, May 2024 - present
+* **Visiting Researcher at MIA group**, University of Bern, Switzerland, May 2024 - Aug 2024
   * Member of [ARTORG - Center for Biomedical Engineering Research](https://www.artorg.unibe.ch/), University of Bern
 
 * **Teaching Assistant**, Menéndez Pelayo International University, Spain, Oct 2023 - present
@@ -19,7 +19,7 @@ redirect_from:
 
 * **Senior AI/ML Ops**, MAPFRE, Spain, May 2022 - present
 
-* **Data Scientist**, Accenture - The Dock Innovation Hub, Ireland, Sep 2021 - May 2022
+* **Data Scientist**, Accenture - The Dock Innovation Hub, Ireland, Sep 2021 - present
 
 * **Data Scientist & ML engineer**, Telefonica, Spain, Sep 2019 - Sep 2021
 
