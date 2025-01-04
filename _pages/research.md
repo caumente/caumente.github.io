@@ -38,9 +38,7 @@ My research aims to overcome key challenges in the field, such as data standardi
 
 **Selected publications**
 
- * Paper under review process
-
-
+ * **C. Aumente-Maestro**, J. Díez, B. Remeseiro, [A multi-task framework for breast cancer segmentation and classification in ultrasound imaging](https://doi.org/10.1016/j.cmpb.2024.108540), Available at Computer Methods and Programs in Biomedicine - Elsevier Journal
 
 
 Research ethics

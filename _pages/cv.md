@@ -17,9 +17,9 @@ redirect_from:
 * **Teaching Assistant**, Menéndez Pelayo International University, Spain, Oct 2023 - present
   * Deep Learning subject, [Master's Degree in Artificial Intelligence Research](https://www.uimp.es/postgrado/estudios/fichaestudio.php?plan=P04C&any=2023-24&verasi=N&lan=en)
 
-* **Senior AI/ML Ops**, MAPFRE, Spain, May 2022 - present
+* **Senior AI/ML Ops**, MAPFRE, Spain, May 2022 - Jan 2025
 
-* **Data Scientist**, Accenture - The Dock Innovation Hub, Ireland, Sep 2021 - present
+* **Data Scientist**, Accenture - The Dock Innovation Hub, Ireland, Sep 2021 - May 2022
 
 * **Data Scientist & ML engineer**, Telefonica, Spain, Sep 2019 - Sep 2021
 
@@ -110,13 +110,13 @@ redirect_from:
   - Teaching assistant, Deep learning course, 2023/24
 
 **Supervised Thesis**
-
+  - Co-supervisor for a bachelor’s thesis - Breast tumor segmentation using ultrasound images, 2024/25
   - Co-supervisor for a master’s thesis - Breast tumor segmentation using ultrasound images, 2023/24
-  - Co-supervisor for a bachelor’s thesis - Applied ML to insurance industry, 2022/23
+  - Co-supervisor for a bachelor’s thesis - Applied machine learning to insurance industry, 2022/23
 
 **Reviewer for Scientific Journals and Peer-Review Conferences**
 
-  - 4 Peer-reviewed paper for Biomedical Signal Processing and Control journal, Elsevier editorial
+  - 5 Peer-reviewed paper for Biomedical Signal Processing and Control journal, Elsevier editorial
 
 **Honors and Awards**
 

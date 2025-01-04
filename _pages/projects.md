@@ -9,11 +9,10 @@ redirect_from:
 
 ## Data-driven approach for brain tumor segmentation
 
-[BTS U-Net: A data-driven approach to brain tumor segmentation through deep learning](https://github.com/caumente/brain_tumor_segmentation)
-
 - **Description:** This work aims to propose a novel lightweight model to deal with brain tumor segmentation while decreasing the computational costs.
 - **Languages:** Python, Pytorch
-- **Status:** Done (under review)
+- **Code**: https://github.com/caumente/brain_tumor_segmentation
+- **Status:** Accepted (DOI publicly available soon)
 - **Main contributions:**
   - We propose a novel efficient lightweight architecture that outperforms some of the most popular architectures previously used in biomedical image segmentation, such as U-Net or V-Net. Our model offers significantly lower training and computational requirements while achieving comparable performance.
   - The study shows statistical differences between LGG and HGG, and suggests a potential shift in glioma segmentation strategies to optimize outcomes, especially for HGG tumors, the most aggressive ones.
@@ -22,11 +21,10 @@ redirect_from:
 
 ## Multi-task learning: breast cancer classification and segmentation
 
-[Beyond traditional approaches: A multi-task framework for breast cancer segmentation and classification in ultrasound imaging](https://github.com/caumente/multi_task_breast_cancer)
-
 - **Description:** This project presents a novel multi-task framework designed to enhance the accuracy and efficiency of breast cancer diagnosis using ultrasound imaging.
 - **Languages:** Python, Pytorch
-- **Status:** Done (under review)
+- **Code**: https://github.com/caumente/multi_task_breast_cancer
+- **Paper:** [A multi-task framework for breast cancer segmentation and classification in ultrasound imaging](https://doi.org/10.1016/j.cmpb.2024.108540)
 - **Main contributions:**
   - The multi-task framework significantly outperforms single-task approaches in terms of both segmentation and classification of breast cancer lesions.
   - Comprehensive analysis and curation of the BUSI dataset ensure minimized biases and more reliable outcomes.
