@@ -12,7 +12,7 @@ redirect_from:
 - **Description:** This work aims to propose a novel lightweight model to deal with brain tumor segmentation while decreasing the computational costs.
 - **Languages:** Python, Pytorch
 - **Code**: https://github.com/caumente/brain_tumor_segmentation
-- **Status:** Accepted (DOI publicly available soon)
+- **Status:** [BTS U-Net: A data-driven approach to brain tumor segmentation through deep learning](https://doi.org/10.1016/j.bspc.2025.107490)
 - **Main contributions:**
   - We propose a novel efficient lightweight architecture that outperforms some of the most popular architectures previously used in biomedical image segmentation, such as U-Net or V-Net. Our model offers significantly lower training and computational requirements while achieving comparable performance.
   - The study shows statistical differences between LGG and HGG, and suggests a potential shift in glioma segmentation strategies to optimize outcomes, especially for HGG tumors, the most aggressive ones.

@@ -25,7 +25,7 @@ Despite the fact that large models are the gold standard nowadays, I consider gr
 
 **Selected publications**
 
- * **Carlos Aumente-Maestro**, David Rodríguez González, David Martinez, Beatriz Remeseiro, [BTS U-Net: A Data-Driven Approach to Brain Tumor Segmentation Through Deep Learning](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4327638), Available at SSRN 4327638
+ * **Carlos Aumente-Maestro**, David Rodríguez González, David Martinez, Beatriz Remeseiro, [BTS U-Net: A data-driven approach to brain tumor segmentation through deep learning](https://doi.org/10.1016/j.bspc.2025.107490), Available at Biomedical Signal Processing and Control - Elsevier Journal
 
 
 Breast cancer
