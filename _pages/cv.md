@@ -116,7 +116,8 @@ redirect_from:
 
 **Reviewer for Scientific Journals and Peer-Review Conferences**
 
-  - 5 Peer-reviewed paper for Biomedical Signal Processing and Control journal, Elsevier editorial
+  - 7 Peer-reviewed paper for Biomedical Signal Processing and Control journal, Elsevier editorial
+  - 3 Peer-reviewed paper for Computer-Based Medical Systems, IEEE International Symposium
 
 **Honors and Awards**
 
@@ -128,4 +129,6 @@ redirect_from:
   - Bern Interpretable AI Symposium for Medical Imaging (BIAS), 2023
   - XII Doctoral Symposium of the University of Oviedo, 2023
 
-  
+**Organization of Scientific Events**
+
+  - Member of the local organizing committee, Summer School on Artificial Intelligence (EVIA), Gijón, 2025
