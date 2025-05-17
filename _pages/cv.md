@@ -125,7 +125,7 @@ redirect_from:
     Title work: "BTS-Unet: A Data-Driven approach to brain tumor segmentation through deep learning".
 
 **Conferences attendance**
-
+  - I Workshop of the Spanish Society of Artificial Intelligence in Biomedicine, 2024
   - Bern Interpretable AI Symposium for Medical Imaging (BIAS), 2023
   - XII Doctoral Symposium of the University of Oviedo, 2023
 
