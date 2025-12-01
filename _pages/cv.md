@@ -11,10 +11,13 @@ redirect_from:
 
 ## Work experience
 
+* **Research Scientist at IMSY Division (VIS group)**, DKFZ, Heidelberg, Jun 2024 - present
+  * Member of the [Resarch and Engineering Units](https://helmholtz-imaging.de/person/carlos-aumente-maestro/), Helmholtz Imaging
+
 * **Visiting Researcher at MIA group**, University of Bern, Switzerland, May 2024 - Aug 2024
   * Member of [ARTORG - Center for Biomedical Engineering Research](https://www.artorg.unibe.ch/), University of Bern
 
-* **Teaching Assistant**, Menéndez Pelayo International University, Spain, Oct 2023 - present
+* **Teaching Assistant**, Menéndez Pelayo International University, Spain, Oct 2023 - Jan 2024
   * Deep Learning subject, [Master's Degree in Artificial Intelligence Research](https://www.uimp.es/postgrado/estudios/fichaestudio.php?plan=P04C&any=2023-24&verasi=N&lan=en)
 
 * **Senior AI/ML Ops**, MAPFRE, Spain, May 2022 - Jan 2025
@@ -118,6 +121,7 @@ redirect_from:
 
   - 7 Peer-reviewed paper for Biomedical Signal Processing and Control journal, Elsevier editorial
   - 3 Peer-reviewed paper for Computer-Based Medical Systems, IEEE International Symposium
+  - 2 Peer-reviewed paper for German Conference on Medical Image Computing, Bildverarbeitung für die Medizin (BVM)
 
 **Honors and Awards**
 

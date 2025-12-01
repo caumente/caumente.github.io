@@ -157,6 +157,9 @@
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/projects/">Projects</a></li>
           
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/AUDIT/">AUDIT library</a></li>
+          
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
@@ -189,7 +192,7 @@
 
   <div class="author__content">
     <h3 class="author__name">Carlos Aumente</h3>
-    <p class="author__bio">PhD student @ University of Oviedo, Spain</p>
+    <p class="author__bio">PhD student @ University of Oviedo (Spain) and Research Scientist @ DKFZ (Germany)</p>
   </div>
 
   <div class="author__urls-wrapper">
@@ -274,28 +277,60 @@ used to enhance patient prognosis in the medical field. I strongly believe that 
 professionals in the near future by accelerating the diagnosis process and offering more personalized medicine. 
 Therefore, any advance in medical image analysis is a step forward in the right direction.</p>
 
-<h2 id="brain-tumors">Brain tumors</h2>
+<p>However, despite the rapid growth of the AI field, most of the systems developed for the
+medical domain remain largely distant from clinical practice. Thus, developing methodologies that
+bridge the gap between AI and trustworthy clinical applications is crucial.</p>
 
-<p>As an AI researcher specializing in applying computer vision techniques to the field of brain tumor segmentation, my research is centered on leveraging deep learning and advanced image analysis methodologies to enhance the accuracy, efficiency, and interpretability of medical imaging in neuro-oncology. Specifically, I am interested in developing lightweight automated systems that can precisely delineate brain tumors from MRI scans while decreasing the computational cost for treating brain cancers such as gliomas.</p>
+<h2 id="data-validation-and-integrity">Data validation and integrity</h2>
 
-<p>Despite the fact that large models are the gold standard nowadays, I consider green AI in medical imaging an area to be explored in detail. Enhancing techniques to address the environmental and computational costs of training large AI models, particularly brain tumor segmentation where models are often computationally expensive, would reduce the carbon footprint. Developing more efficient lightweight models and optimizing training pipelines while maintaining high performance will be key in the near future.</p>
+<p>Data constitute the raw material of AI models. In recent years, a large number of datasets have been published, which
+has facilitated model training. However, not all studies carry out a thorough understanding of the data, often leading 
+to incorrect conclusions.</p>
 
-<p><strong>Selected publications</strong></p>
+<p>In this line of research, we emphasize that data integrity is fundamental. In previous work, I developed an algorithm 
+for detecting “duplicate” images within a dataset, providing a curated and more reliable version known as Curated BUSI.</p>
 
 <ul>
-  <li><strong>Carlos Aumente-Maestro</strong>, David Rodríguez González, David Martinez, Beatriz Remeseiro, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4327638">BTS U-Net: A Data-Driven Approach to Brain Tumor Segmentation Through Deep Learning</a>, Available at SSRN 4327638</li>
+  <li><strong>C. Aumente-Maestro</strong>, J. Díez, B. Remeseiro, <a href="https://doi.org/10.1016/j.cmpb.2024.108540">A multi-task framework for breast cancer segmentation and classification in ultrasound imaging</a>, Available at Computer Methods and Programs in Biomedicine - Elsevier Journal</li>
 </ul>
 
-<h2 id="breast-cancer">Breast cancer</h2>
+<h2 id="resource-efficient-deep-learning-models">Resource-efficient deep learning models</h2>
 
-<p>Another research topic I am involved in is the breast cancer domain. I am particularly interested in developing multi-task learning systems to address both tumor segmentation and classification simultaneously, leveraging the natural correlation between these tasks to improve performance and generalizability.</p>
+<p>As part of this research line, I developed a lightweight deep learning method and explored image analysis methodologies 
+to enhance the efficiency and interpretability of medical imaging systems in limited computational scenarios for brain
+tumor segmentation in MRI.</p>
 
-<p>My research aims to overcome key challenges in the field, such as data standardization issues and the exclusion of non-tumor images during training, which often lead to biased and non-clinically applicable CAD systems. A significant part of my work involves curating publicly available breast cancer datasets to mitigate biases that arise from poor-quality data. By doing so, the goal of our work is to advance the research community by promoting more reliable practices and reducing the potential harm of using low-quality datasets in scientific achievements.</p>
-
-<p><strong>Selected publications</strong></p>
+<p>The trend over recent years has been to build more powerful AI systems at the cost of drastically increasing 
+computational requirements (e.g., LLMs, VLMs, VLAs). Finding a balance between achieving sufficiently good performance 
+in delineating brain tumors and managing resource consumption is necessary. From a practical standpoint, this is 
+essential not only due to resource limitations in hospitals but also to support environmental sustainability by 
+promoting green AI and reducing the carbon footprint.</p>
 
 <ul>
-  <li>Paper under review process</li>
+  <li>
+    <p><strong>C. Aumente-Maestro</strong>, D. R. González, D. Martinez, B. Remeseiro, <a href="https://doi.org/10.1016/j.bspc.2025.107490">BTS U-Net: A data-driven approach to brain tumor segmentation through deep learning</a>, Available at Biomedical Signal Processing and Control - Elsevier Journal</p>
+  </li>
+  <li>
+    <p><strong>C. Aumente-Maestro</strong>, J. Díez, B. Remeseiro, <a href="https://doi.org/10.1016/j.cmpb.2024.108540">A multi-task framework for breast cancer segmentation and classification in ultrasound imaging</a>, Available at Computer Methods and Programs in Biomedicine - Elsevier Journal</p>
+  </li>
+</ul>
+
+<h2 id="evaluation-of-medical-image-segmentation-ai-models">Evaluation of medical image segmentation AI models</h2>
+
+<p>While AI has demonstrated its potential to transform medical imaging workflows, the field still faces ongoing challenges.
+Despite the efforts to evaluate AI systems, general limitations persist. Most tools primarily focus on evaluating 
+model performance using standardized metrics; however, they often overlook the critical aspect of evaluating model 
+improvements over time. There is also a lack of mechanisms for assessing and visualizing potential shifts between training and 
+test sets (domain shift), and a high demand for sophisticated analysis into model behavior across diverse clinical 
+scenarios, particularly in those cases deemed as “challenging”.</p>
+
+<p>In response to these clinical and technical challenges, in this research line I presented AUDIT, an open-source Python 
+library designed to advance the evaluation of AI models in medical imaging. The main objective here is to 
+develop a unified framework that supports both population-level and subject-level performance analysis, facilitates 
+longitudinal performance assessment, and enables visualization of potential data shifts between training and testing.</p>
+
+<ul>
+  <li><strong>C. Aumente-Maestro</strong>, M. Müller, B. Remeseiro, J. Díez, M. Reyes, <a href="https://doi.org/10.1016/j.cmpb.2025.108991">AUDIT: An open-source Python library for AI model evaluation with use cases in MRI brain tumor segmentation</a>, Available at Computer Methods and Programs in Biomedicine - Elsevier Journal</li>
 </ul>
 
 <h1 id="research-ethics">Research ethics</h1>
@@ -339,7 +374,7 @@ Therefore, any advance in medical image analysis is a step forward in the right 
     <div class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
-<a href="/sitemap/">Sitemap</a>
+<!--<a href="/sitemap/">Sitemap</a>-->
 <!-- end custom footer snippets -->
 
         
@@ -359,7 +394,7 @@ Therefore, any advance in medical image analysis is a step forward in the right 
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2024 Carlos Aumente Maestro. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2025 Carlos Aumente Maestro. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

@@ -10,9 +10,8 @@ redirect_from:
 ## Data-driven approach for brain tumor segmentation
 
 - **Description:** This work aims to propose a novel lightweight model to deal with brain tumor segmentation while decreasing the computational costs.
-- **Languages:** Python, Pytorch
-- **Code**: https://github.com/caumente/brain_tumor_segmentation
-- **Status:** [BTS U-Net: A data-driven approach to brain tumor segmentation through deep learning](https://doi.org/10.1016/j.bspc.2025.107490)
+- **Code:** [GitHub repo](https://github.com/caumente/brain_tumor_segmentation)
+- **Paper:** [BTS U-Net: A data-driven approach to brain tumor segmentation through deep learning](https://doi.org/10.1016/j.bspc.2025.107490)
 - **Main contributions:**
   - We propose a novel efficient lightweight architecture that outperforms some of the most popular architectures previously used in biomedical image segmentation, such as U-Net or V-Net. Our model offers significantly lower training and computational requirements while achieving comparable performance.
   - The study shows statistical differences between LGG and HGG, and suggests a potential shift in glioma segmentation strategies to optimize outcomes, especially for HGG tumors, the most aggressive ones.
@@ -22,10 +21,22 @@ redirect_from:
 ## Multi-task learning: breast cancer classification and segmentation
 
 - **Description:** This project presents a novel multi-task framework designed to enhance the accuracy and efficiency of breast cancer diagnosis using ultrasound imaging.
-- **Languages:** Python, Pytorch
-- **Code**: https://github.com/caumente/multi_task_breast_cancer
+- **Code:** [GitHub repo](https://github.com/caumente/multi_task_breast_cancer)
 - **Paper:** [A multi-task framework for breast cancer segmentation and classification in ultrasound imaging](https://doi.org/10.1016/j.cmpb.2024.108540)
 - **Main contributions:**
   - The multi-task framework significantly outperforms single-task approaches in terms of both segmentation and classification of breast cancer lesions.
   - Comprehensive analysis and curation of the BUSI dataset ensure minimized biases and more reliable outcomes.
   - The methodology showcases better generalization capabilities, crucial for clinical applications in breast cancer detection.
+
+
+## AUDIT: Analysis and evaluation dashboard of Artificial Intelligence models 
+
+- **Description:** This project presents a novel python library designed to evaluate AI segmentation models and MRI datasets.
+- **Code:** [GitHub repo](https://github.com/caumente/AUDIT)
+- **Paper:** [AUDIT: An open-source Python library for AI model evaluation with use cases in MRI brain tumor segmentation](https://doi.org/10.1016/j.cmpb.2025.108991)
+- **Main contributions:**
+  - Open-source Python library for evaluating medical image segmentation models and analyzing MRI datasets.
+  - Modular design inspired by modern deep learning frameworks to support integration with external libraries.
+  - Extracts multiple features, including statistical, textural, spatial, and tumor-specific characteristics.
+  - Includes an interactive web application for dynamic data exploration and visualization.
+  - Supports statistical testing, longitudinal analysis, and subject-level bias analysis.
